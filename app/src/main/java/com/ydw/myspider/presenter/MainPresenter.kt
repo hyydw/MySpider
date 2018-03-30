@@ -1,7 +1,7 @@
 package com.ydw.myspider.presenter
 
 import com.ydw.myspider.model.MainModel
-import com.ydw.myspider.view.activity.MainView
+import com.ydw.myspider.ui.activity.MainView
 import javax.inject.Inject
 
 /**

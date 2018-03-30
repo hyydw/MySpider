@@ -17,4 +17,16 @@ features available.]]>
     <string name="storage_permission_available">storage permission is available. Starting preview.</string>
     <string name="storage_permission_granted">storage permission was granted. Starting preview.</string>
     <string name="storage_permission_denied">storage permission request was denied.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="home_page1">主页</string>
+    <string name="home_page2">消息</string>
+    <string name="home_page3">发现</string>
+    <string name="home_page4">我的</string>
+
 </resources>

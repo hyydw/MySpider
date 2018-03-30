@@ -33,14 +33,42 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:27.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:27.1.0'
+    compile 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.0'
+    compile "com.android.support:design:27.1.0"
     //dagger2
     compile 'com.google.dagger:dagger-android:2.12'
     compile 'com.google.dagger:dagger-android-support:2.12'
     kapt 'com.google.dagger:dagger-android-processor:2.11'
     kapt 'com.google.dagger:dagger-compiler:2.12'
+    //    implementation 'com.inkapplications.viewpageindicator:library:2.4.3'
     //    implementation 'androidx.core:core-ktx:0.2'
+    //tab使用
+    //    compile 'com.shizhefei:ViewPagerIndicator:1.1.5'
+
+    //启动页
+    implementation 'com.youth.banner:banner:1.4.9'
+
+    //Glide图片加载
+//    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+//    kapt 'com.github.bumptech.glide:compiler:4.1.1'
+    //recycleview适配器
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+
+    compile 'com.orhanobut:logger:2.1.1'
+    compile 'com.roughike:bottom-bar:2.3.1'
+
+    implementation 'io.reactivex:rxandroid:1.2.1'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation project(':base')
+    implementation project(':tab_library')
+    implementation project(':zoomlibrary')
+
+    compile 'org.jetbrains.anko:anko-common:0.9'
 }

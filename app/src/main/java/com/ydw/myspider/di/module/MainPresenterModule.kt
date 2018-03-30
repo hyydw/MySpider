@@ -1,8 +1,8 @@
 package com.ydw.myspider.di.module
 
 import com.ydw.myspider.model.MainModel
-import com.ydw.myspider.view.activity.MainActivity
-import com.ydw.myspider.view.activity.MainView
+import com.ydw.myspider.ui.activity.MainActivity
+import com.ydw.myspider.ui.activity.MainView
 import dagger.Module
 import dagger.Provides
 

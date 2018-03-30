@@ -1,9 +1,8 @@
 package com.ydw.myspider.di.module
 
 import android.app.Activity
-import android.support.v7.app.AppCompatActivity
 import com.ydw.myspider.di.subComponent.MainSubComponent
-import com.ydw.myspider.view.activity.MainActivity
+import com.ydw.myspider.ui.activity.MainActivity
 import dagger.Binds
 import dagger.Module
 import dagger.android.ActivityKey

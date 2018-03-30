@@ -1,7 +1,7 @@
 package com.ydw.myspider.di.subComponent
 
 import com.ydw.myspider.di.module.MainPresenterModule
-import com.ydw.myspider.view.activity.MainActivity
+import com.ydw.myspider.ui.activity.MainActivity
 import dagger.Subcomponent
 import dagger.android.AndroidInjector
 

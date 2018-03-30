@@ -11,20 +11,27 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".App"
-        android:theme="@style/AppTheme">
-        <activity android:name=".view.activity.MainActivity">
+        android:theme="@style/AppTheme.Full">
+        <activity android:name=".ui.TransitionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:theme="@style/MyScrollPage" />
+        <activity
+            android:name=".ui.activity.ViewBigImageActivity"
+            android:theme="@style/ViewBigPicTheme"
+           />
     </application>
 
 </manifest>
